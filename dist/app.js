@@ -1,0 +1,14 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.app = void 0;
+//Gateway Application
+const express_1 = __importDefault(require("express"));
+exports.app = express_1.default();
+exports.app.get("/", (req, res) => {
+    console.log("get home");
+    res.send("Bismillah");
+});
+//# sourceMappingURL=app.js.map
