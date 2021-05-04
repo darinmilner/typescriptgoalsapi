@@ -9,6 +9,6 @@ const express_1 = __importDefault(require("express"));
 exports.app = express_1.default();
 exports.app.get("/", (req, res) => {
     console.log("get home");
-    res.send("Bismillah");
+    res.send("Bismillah, salam alaikum");
 });
 //# sourceMappingURL=app.js.map
